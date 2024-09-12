@@ -3,8 +3,17 @@ package org.example;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
+/**
+ * Created by sebatian blanco.
+ */
 public class ReflexCalculator {
 
+    /**
+     *
+     * @param command
+     * @param params
+     * @return
+     */
     public String compute(String command, Double[] params) {
         try {
             if ("bbl".equalsIgnoreCase(command)) {
@@ -20,6 +29,10 @@ public class ReflexCalculator {
         }
     }
 
+    /**
+     *
+     * @param array
+     */
     private void bubbleSort(Double[] array) {
         boolean sorted;
         do {

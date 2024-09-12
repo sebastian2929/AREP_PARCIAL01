@@ -3,8 +3,16 @@ package org.example;
 import java.io.*;
 import java.net.*;
 
+/**
+ * Created by sebatian blanco.
+ */
 public class CalculatorService {
 
+    /**
+     *
+     * @param args
+     * @throws IOException
+     */
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(8081);
         ReflexCalculator calculator = new ReflexCalculator();

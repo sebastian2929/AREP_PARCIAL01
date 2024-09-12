@@ -12,9 +12,17 @@ Desarrollo parcial 1 de AREP donde se con el uso de websockets se crea una aplic
 ```bash
   mvn clean install
 ```
-3. Inicia la clase ServiceFacade:
+3. Ejecuta el JAR:
+```bash
+java -cp target/AREP_PARCIAL01-1.0-SNAPSHOT.jar org.example.CalculatorService
+java -cp target/AREP_PARCIAL01-1.0-SNAPSHOT.jar org.example.ServiceFacade 
+```
+4. Accede a la Aplicación: Abre un navegador y visita http://localhost:8080
 
-4. Accede a la Aplicación: Abre un navegador y visita http://localhost:8080/calculadora.
+5. Se puede comprar que usando el siguiente comando funciona:
+```bash
+http://localhost:8080/computar?comando=sin(45)
+```
 
 ### Requisitos:
 

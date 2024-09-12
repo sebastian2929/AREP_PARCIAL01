@@ -11,19 +11,6 @@
 <input id="input" type="text" placeholder="Command (e.g., sin(45))"><br>
 <button onclick="compute()">Compute</button>
 <div id="result"></div>
-
-<script>
-    function compute() {
-        let input = document.getElementById("input").value;
-        fetch("/computar?comando=" + encodeURIComponent(input))
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById("result").innerHTML = "Result: " + data.result;
-            })
-            .catch(error => {
-                document.getElementById("result").innerHTML = "Error: " + error.message;
-            });
-    }
-</script>
+<script src="app.js"></script>
 </body>
 </html>
