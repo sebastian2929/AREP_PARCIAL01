@@ -12,7 +12,7 @@ Desarrollo parcial 1 de AREP donde se con el uso de websockets se crea una aplic
 ```bash
   mvn clean install
 ```
-3. Ejecuta el JAR:
+3. Ejecuta en dos terminales cada comando respectivamente:
 ```bash
 java -cp target/AREP_PARCIAL01-1.0-SNAPSHOT.jar org.example.CalculatorService
 java -cp target/AREP_PARCIAL01-1.0-SNAPSHOT.jar org.example.ServiceFacade 
